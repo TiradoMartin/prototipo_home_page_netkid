@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netkind</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="{% static 'NetJS-CSS/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+        <a class="navbar-brand net-logo" href="#"><img src="https://image.shutterstock.com/image-vector/retro-television-face-illustration-600w-304046591.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <button class="btn btn-success">Crear una cuenta</button>
+            </li>
+            
+            <li class="nav-item ml-4">
+              <button class="btn btn-primary ">Inicia sesion</button>
+            </li>
+           
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <!--Header main-->
+      <header id="main-header" class="main-header">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+          </video>
+          <div class="backgroud-color-overlay text-white py-5">
+
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-6 text-center justify-content-center align-self-center">
+                          <h1>bienvenido a NetKind</h1>
+                          <p>aqui encontraras todo lo que quieres ver</p>
+                          <a href="#" class="btn btn-outline-secondary btn-lg text-white">leer mas</a>
+                      </div>
+                      <div class="col-md-6 img-card">
+                          <img src="img/product.jpg" alt="Imagen de la marca" class="img-fluid img-home d-none d-sm-block">
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+       <!--Tarjeta acerca de -->
+       <section class="py-5 bg-warning">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+       
+              <h3>Titulo</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aut voluptates aliquam nam deserunt rerum eos ducimus cum? Laborum reprehenderit dolorem architecto dolorum a aut in beatae ad vero voluptates.</p>
+         
+              </div>
+              <div class="col-md-6">
+       
+                <h3>Titulo</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aut voluptates aliquam nam deserunt rerum eos ducimus cum? Laborum reprehenderit dolorem architecto dolorum a aut in beatae ad vero voluptates.</p>
+           
+                </div>
+          
+          </div>
+          </div>
+      
+       </section>
+
+      <!--Tarjetas de informacion-->
+      <section class="py-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="card">
+                      <div class="card-body">
+                        <h3>Titulo</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aut voluptates aliquam nam deserunt rerum eos ducimus cum? Laborum reprehenderit dolorem architecto dolorum a aut in beatae ad vero voluptates.</p>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Titulo</h3>
+                            <p>este es un contenido</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Titulo</h3>
+                            <p>este es un contenido</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Titulo</h3>
+                            <p>este es un contenido</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          
+      </section>
+      <!--Preguntas frecuentes-->
+      <div id="container-p" class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <footer ><a href="#container-p" class="btn btn-success">regresar</a></footer>
+
+    <!-- JAVASCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
