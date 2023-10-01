@@ -4,3 +4,4 @@ Este es el prototipo de un maquetado de pagina de aterrizaje  que se utilizo en 
  
  link de el proyecto en funcionamiento:https://netkid.xyz/home?next=/
  
+![Uploading Nesking.png…]()
